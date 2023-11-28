@@ -4,15 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I'm currently a software engineer at Relaxdays, building things for the logistics with some great people. I recently graduated from Martin-Luther-University Halle-Wittenberg with bachelor's and master's degree in computer science, specialising in optimisation algorithms. As a software engineer, I enjoy bridging the gap between technical engineering and real processes in the field.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+If I'm not in front of a computer screen, I'm probably out for a walk, playing games on my Steam Deck or reading books about Zamonia.
