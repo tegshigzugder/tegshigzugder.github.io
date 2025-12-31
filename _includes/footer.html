@@ -1,0 +1,51 @@
+<footer class="site-footer h-card">
+  <div class="wrapper">
+    <div class="footer-col">
+      {%- if site.github_username -%}
+      <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}" class="link-hover"
+        target="_blank"><svg class="svg-icon svg-color">
+          <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use>
+        </svg>
+        <span class="username">GitHub</span></a>{%- endif -%}
+    </div>
+    <div class="footer-col">
+      {%- if site.strava_username -%}
+      <a href="https://www.strava.com/athletes/{{ site.strava_username| cgi_escape | escape }}" class="link-hover"
+        target="_blank"><svg class="svg-icon svg-color">
+          <use xlink:href="{{ '/assets/minima-social-icons.svg#strava' | relative_url }}"></use>
+        </svg>
+        <span class="username">Strava</span></a>{%- endif -%}
+    </div>
+    <div class="footer-col">
+      {%- if site.chess_username -%}
+      <a href="https://www.chess.com/member/{{ site.chess_username| cgi_escape | escape }}" class="link-hover"
+        target="_blank"><svg class="svg-icon svg-color">
+          <use xlink:href="{{ '/assets/minima-social-icons.svg#chess' | relative_url }}"></use>
+        </svg>
+        <span class="username">Chess</span></a>{%- endif -%}
+    </div>
+    <div class="footer-col">
+      {%- if site.duolingo_username -%}
+      <a href="https://www.duolingo.com/profile/{{ site.strava_username| cgi_escape | escape }}" class="link-hover"
+        target="_blank"><svg class="svg-icon svg-color">
+          <use xlink:href="{{ '/assets/minima-social-icons.svg#duolingo' | relative_url }}"></use>
+        </svg>
+        <span class="username">Duolingo</span></a>{%- endif -%}
+    </div>
+    <div class="footer-col">
+      {%- if site.flickr_username -%}
+      <a href="https://www.flickr.com/people/{{ site.flickr_username| cgi_escape | escape }}" class="link-hover"
+        target="_blank"><svg class="svg-icon svg-color">
+          <use xlink:href="{{ '/assets/minima-social-icons.svg#flickr' | relative_url }}"></use>
+        </svg>
+        <span class="username">Flickr</span></a>{%- endif -%}
+    </div>
+    <div class="footer-col">
+      {%- if site.linkedin_username -%}
+      <a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}" class="link-hover"
+        target="_blank"><svg class="svg-icon svg-color">
+          <use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use>
+        </svg>
+        <span class="username">LinkedIn</span></a>{%- endif -%}
+    </div>
+</footer>
